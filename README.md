@@ -54,7 +54,7 @@ No suprise, the concurrent one wins, because it leverages the two cores of the A
 But I noticed an even one more interesting side effect : **The Memory footprint** that bas been created after the test.
 
 #### Comparison in memory
-| Loop type                  | Peak (MB) | After iteration (MB) |
+| Loop type                  | Peak (MB) | After task (MB) |
 |----------------------------|-----------|----------------|
 | For Loop                   | 28.7       |   3.5         |
 | Fast Enumeration           | 28.8       |   3.5         |
