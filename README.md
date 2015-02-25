@@ -40,7 +40,7 @@ On my iPhone 6 I have the following setup for the tests.
 
 #### Comparison in seconds
 
-| Loop type                  | Single Run 1 |   Single Run 2   |   All Runs in one build  |
+| Loop type                  |    Run 1     |    Run 2         |   Run 3                  |
 |----------------------------|--------------|------------------|--------------------------|
 | For Loop                   | 2.545244     |   2.543291       | 2.545505                 |
 | Fast Enumeration           | 2.282996     |   2.279801       | 2.266571                 |
