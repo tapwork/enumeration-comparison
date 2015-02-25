@@ -40,14 +40,14 @@ On my iPhone 6 I have the following setup for the tests.
 
 #### Comparison in seconds
 
-| Loop type                  | Single Run 1 |   Single Run 2   |   All Runs in one build
-|----------------------------|--------------|------------------|
-| For Loop                   | 2.545244     |   2.543291       | 2.545505
-| Fast Enumeration           | 2.282996     |   2.279801       | 2.266571
-| enumerateObjectsUsingBlock | 2.466647     |   2.440913       |  2.440402
-| objectEnumerator           | 2.536801     |   2.523067       |  2.508857
-| Concurrent                 | 1.488604     |   1.505069       |  1.475192
-| MakeObjectsPerformSelector | 2.951380     |   2.847308       |   2.861406
+| Loop type                  | Single Run 1 |   Single Run 2   |   All Runs in one build  |
+|----------------------------|--------------|------------------|--------------------------|
+| For Loop                   | 2.545244     |   2.543291       | 2.545505                 |
+| Fast Enumeration           | 2.282996     |   2.279801       | 2.266571                 |
+| enumerateObjectsUsingBlock | 2.466647     |   2.440913       |  2.440402                |
+| objectEnumerator           | 2.536801     |   2.523067       |  2.508857                |
+| Concurrent                 | 1.488604     |   1.505069       |  1.475192                |
+| MakeObjectsPerformSelector | 2.951380     |   2.847308       |   2.861406               |
 
 
 No suprise, the concurrent one wins, because it leverages the two cores of the Apple A8.
